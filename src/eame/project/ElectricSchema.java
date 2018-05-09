@@ -7,7 +7,7 @@ import javax.swing.*;
 
 public class ElectricSchema extends JPanel {
 
-    private Capacitor capacitor1;
+    private Capacitor capacitor1 = new Capacitor();
 
     public ElectricSchema() {
         setBorder(BorderFactory.createTitledBorder("Lista pacjentów"));
@@ -21,7 +21,7 @@ public class ElectricSchema extends JPanel {
         add(b1);
 
         JButton capacitorEditor1 = CapacitorEditor.EditButton(capacitor1);
-        capacitorEditor1.setBounds(20, 50, 100, 50);
+        capacitorEditor1.setBounds(20, 50, 64, 64);
         add(capacitorEditor1);
     }
 }
