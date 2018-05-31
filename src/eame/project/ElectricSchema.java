@@ -1,27 +1,24 @@
 package eame.project;
 
-import eame.project.electric.Capacitor;
-import eame.project.ui.CapacitorEditor;
+import eame.project.ui.Capacitor;
+import javafx.scene.layout.AnchorPane;
 
-import javax.swing.*;
 
-public class ElectricSchema extends JPanel {
+public class ElectricSchema extends AnchorPane {
 
     private Capacitor capacitor1 = new Capacitor();
 
     public ElectricSchema() {
-        setBorder(BorderFactory.createTitledBorder("Lista pacjentów"));
-        setLayout(null);
+        Loader.loadFX(this);
 
         initSchema();
     }
 
     private void initSchema() {
-        JButton b1 = new JButton("two");
-        add(b1);
+        capacitor1.appendAvatar(this, 16.0, 16.0);
+    }
 
-        JButton capacitorEditor1 = CapacitorEditor.EditButton(capacitor1);
-        capacitorEditor1.setBounds(20, 50, 64, 64);
-        add(capacitorEditor1);
+    public Capacitor getCapacitor1() {
+        return capacitor1;
     }
 }
