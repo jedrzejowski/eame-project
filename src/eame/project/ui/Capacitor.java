@@ -9,16 +9,14 @@ public class Capacitor extends ElectricElement {
 
     public Capacitor() {
 
-
     }
 
     @Override
     protected void initProps() {
-        setIcon("capacitor.png");
 
         // Pojemność
         capacity = new TextProp();
-        capacity.setLabel("Pojemność");
+        capacity.setLabel("Pojemność[nF]");
         capacity.setInputInterface(TextProp.DoubleInputI);
         addProp(capacity);
     }

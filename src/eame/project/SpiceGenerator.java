@@ -1,6 +1,5 @@
 package eame.project;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -49,7 +48,7 @@ public class SpiceGenerator {
         ElectricSchema schema = Main.getInstance().getElectricSchema();
 
         //TODO tu napierdalasz
-        spice.setVar("jeden", schema.getCapacitor1().getCapacity());
+        spice.setVar("jeden", schema.getC1().getCapacity());
 
         spice.save("project.spice.out");
     }

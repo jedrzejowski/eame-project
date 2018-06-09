@@ -4,60 +4,50 @@ import eame.project.ElectricSchema;
 import eame.project.Main;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
-import javafx.scene.image.Image;
+import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.scene.image.ImageView;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-
 public abstract class ElectricElement extends VBox {
-    private ImageView avatar = new ImageView();
+
+    private Button avatar = new Button();
+    private Label titleLabel =  new Label();
 
     public ElectricElement() {
+        getChildren().add(titleLabel);
 
         avatar.setOnMouseClicked(mouseEvent -> {
             Main.getInstance().getRoot().setRight(this);
-
         });
-
 
         initProps();
     }
 
-    public ImageView getAvatar() {
-        return avatar;
-    }
 
-    public void setIcon(String iconPath) {
-        iconPath = "assets/pic/" + iconPath;
-
-        try {
-            Image image = new Image(new FileInputStream(iconPath));
-
-            avatar.setFitHeight(image.getHeight());
-            avatar.setFitWidth(image.getWidth());
-
-            avatar.setImage(image);
-        } catch (FileNotFoundException e) {
-        System.out.println(iconPath);
-        }
-    }
-
-    public void appendAvatar(ElectricSchema schema, double x, double y) {
+    public void appendAvatar(ElectricSchema schema, double x, double y, double w, double h) {
         schema.getChildren().add(avatar);
-        setAvatarPos(x, y);
+        setAvatarPos(x, y, w, h);
     }
 
-    public void setAvatarPos(double x, double y) {
-        AnchorPane.setTopAnchor(avatar, x);
-        AnchorPane.setLeftAnchor(avatar, y);
+    public void setAvatarPos(double x, double y, double w, double h) {
+        AnchorPane.setTopAnchor(avatar, y);
+        AnchorPane.setLeftAnchor(avatar, x);
+        avatar.setMinHeight(h);
+        avatar.setMinWidth(w);
+
+        avatar.setStyle("-fx-background-color: #FF0000;");
+        avatar.setOpacity(0.5);
     }
 
     protected abstract void initProps();
 
     protected void addProp(Node prop) {
         getChildren().add(prop);
+    }
+
+    public void setTitle(String title){
+        titleLabel.setText(title);
     }
 }
