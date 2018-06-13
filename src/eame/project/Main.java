@@ -20,6 +20,13 @@ public class Main extends Application {
 
     //endregion
 
+    Stage stage;
+
+    public Stage getStage() {
+        return stage;
+    }
+
+    @FXML
     private BorderPane root;
     @FXML
     private Button saveButton;
@@ -33,10 +40,13 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         ourInstance = this;
+        this.stage = stage;
+
 
         root = FXMLLoader.load(getClass().getResource("Main.fxml"));
         saveButton = (Button) root.lookup("#saveButton");
         electricSchema = (ElectricSchema) root.lookup("#electricSchema");
+        Loader.loadCSS(root, getClass().getResource("Main.css"));
 
         saveButton.setOnAction(actionEvent -> {
             SpiceGenerator.GenerateProject();

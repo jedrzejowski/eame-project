@@ -15,8 +15,7 @@ public class Loader {
         fxmlLoader.setRoot(t);
         fxmlLoader.setController(t);
 
-        URL url = c.getResource(simple + ".css");
-        if (url != null) t.getStylesheets().add(url.toExternalForm());
+        loadCSS(t);
 
         try {
             fxmlLoader.load();
@@ -24,4 +23,17 @@ public class Loader {
             throw new RuntimeException(exception);
         }
     }
+
+
+    public static void loadCSS(Parent t) {
+        Class c = t.getClass();
+        String simple = c.getSimpleName();
+        URL url = c.getResource(simple + ".css");
+        loadCSS(t, url);
+    }
+
+    public static void loadCSS(Parent t, URL url) {
+        if (url != null) t.getStylesheets().add(url.toExternalForm());
+    }
+
 }

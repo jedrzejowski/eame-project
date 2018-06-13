@@ -1,0 +1,12 @@
+@mixin ElectricSchema() {
+
+	#titleLabel {
+		-fx-pref-width: 300px;
+		-fx-font-size: 20px;
+		-fx-alignment: center;
+	}
+
+	> * {
+		-fx-padding: 12px;
+	}
+}

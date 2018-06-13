@@ -21,6 +21,10 @@ public class Capacitor extends ElectricElement {
         addProp(capacity);
     }
 
+    public void setCapacity(Double num) {
+        capacity.setValue(num);
+    }
+
     public Double getCapacity() {
         return (Double) capacity.getValue();
     }

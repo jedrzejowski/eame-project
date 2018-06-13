@@ -16,9 +16,13 @@ public class Resistance extends ElectricElement {
 
         // Pojemność
         resistance = new TextProp();
-        resistance.setLabel("Rezystancja[KOhm]");
+        resistance.setLabel("Rezystancja[Ohm]");
         resistance.setInputInterface(TextProp.DoubleInputI);
         addProp(resistance);
+    }
+
+    public void setResistance(Double num) {
+        resistance.setValue(num);
     }
 
     public Double getResistance() {

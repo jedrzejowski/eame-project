@@ -8,7 +8,8 @@
 <BorderPane prefHeight="425.0" prefWidth="1150.0"
             xmlns="http://javafx.com/javafx/8.0.121"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="eame.project.Main">
+            fx:id="root"
+            fx:controller="eame.project.Main" >
 
     <top>
 
@@ -18,11 +19,15 @@
         <ElectricSchema fx:id="electricSchema"/>
     </center>
 
+    <right>
+
+    </right>
+
     <bottom>
 
-        <HBox alignment="CENTER_RIGHT">
+        <HBox alignment="CENTER">
             <children>
-                <Button fx:id="saveButton" text="Zapisz"/>
+                <Button fx:id="saveButton" text="Generuj schemat"/>
             </children>
         </HBox>
     </bottom>

@@ -1,6 +1,7 @@
 package eame.project.ui.prop;
 
 import eame.project.ElectricSchema;
+import eame.project.Loader;
 import eame.project.Main;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
@@ -17,17 +18,21 @@ public abstract class ElectricElement extends VBox {
 
     public ElectricElement() {
         getChildren().add(titleLabel);
+        titleLabel.setId("titleLabel");
 
         avatar.setOnMouseClicked(mouseEvent -> {
             Main.getInstance().getRoot().setRight(this);
         });
+        avatar.setId("avatar");
+
+        Loader.loadCSS(this);
 
         initProps();
     }
 
 
     public void appendAvatar(ElectricSchema schema, double x, double y, double w, double h) {
-        schema.getChildren().add(avatar);
+        schema.content.getChildren().add(avatar);
         setAvatarPos(x, y, w, h);
     }
 
@@ -37,8 +42,6 @@ public abstract class ElectricElement extends VBox {
         avatar.setMinHeight(h);
         avatar.setMinWidth(w);
 
-        avatar.setStyle("-fx-background-color: #FF0000;");
-        avatar.setOpacity(0.5);
     }
 
     protected abstract void initProps();

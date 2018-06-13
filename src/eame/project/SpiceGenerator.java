@@ -1,5 +1,8 @@
 package eame.project;
 
+import javafx.stage.FileChooser;
+
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -20,14 +23,19 @@ public class SpiceGenerator {
 
     public void save(String path) {
 
-        try {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Zapisz plik do Spica");
+        File selectedFile = fileChooser.showSaveDialog(Main.getInstance().getStage());
+                
 
-            Files.write(Paths.get(path), lines);
+        if (selectedFile != null) {
+            try {
 
-            System.out.println("dupa");
+                Files.write(Paths.get(path), lines);
 
-        } catch (IOException e) {
-            e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -48,7 +56,7 @@ public class SpiceGenerator {
         ElectricSchema schema = Main.getInstance().getElectricSchema();
 
         //TODO tu napierdalasz
-        spice.setVar("jeden", schema.getC1().getCapacity());
+        //spice.setVar("jeden", schema.getC1().getCapacity());
 
         spice.save("project.spice.out");
     }

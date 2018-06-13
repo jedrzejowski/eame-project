@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application" singleton="true">
+    <option name="MAIN_CLASS_NAME" value="eame.project.Main" />
+    <module name="eame-project" />
+    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Run" />
+    <method>
+      <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Sass" />
+      <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Sleep" />
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
