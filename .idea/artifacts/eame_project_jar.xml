@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="eame-project:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/eame_project_jar</output-path>
+    <root id="archive" name="eame-project.jar">
+      <element id="module-output" name="eame-project" />
+    </root>
+  </artifact>
+</component>

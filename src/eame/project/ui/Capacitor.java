@@ -16,16 +16,16 @@ public class Capacitor extends ElectricElement {
 
         // Pojemność
         capacity = new TextProp();
-        capacity.setLabel("Pojemność[nF]");
-        capacity.setInputInterface(TextProp.DoubleInputI);
+        capacity.setLabel("Pojemność[F]");
+//        capacity.setInputInterface(TextProp.DoubleInputI);
         addProp(capacity);
     }
 
-    public void setCapacity(Double num) {
+    public void setCapacity(String num) {
         capacity.setValue(num);
     }
 
-    public Double getCapacity() {
-        return (Double) capacity.getValue();
+    public String getCapacity() {
+        return capacity.getValue().toString();
     }
 }

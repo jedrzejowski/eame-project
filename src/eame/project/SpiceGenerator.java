@@ -1,5 +1,6 @@
 package eame.project;
 
+import eame.project.ui.Capacitor;
 import javafx.stage.FileChooser;
 
 import java.io.File;
@@ -12,9 +13,9 @@ public class SpiceGenerator {
 
     private List<String> lines;
 
-    public SpiceGenerator(String path) {
+    public SpiceGenerator() {
         try {
-            lines = Files.readAllLines(Paths.get("assets/" + path));
+            lines = Files.readAllLines(Paths.get(getClass().getResource("Spice.template").getFile()));
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -26,7 +27,7 @@ public class SpiceGenerator {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Zapisz plik do Spica");
         File selectedFile = fileChooser.showSaveDialog(Main.getInstance().getStage());
-                
+
 
         if (selectedFile != null) {
             try {
@@ -51,12 +52,18 @@ public class SpiceGenerator {
     }
 
     static void GenerateProject() {
-        SpiceGenerator spice = new SpiceGenerator("project.spice");
+        SpiceGenerator spice = new SpiceGenerator();
 
         ElectricSchema schema = Main.getInstance().getElectricSchema();
 
-        //TODO tu napierdalasz
-        //spice.setVar("jeden", schema.getC1().getCapacity());
+        for (int i = 1; i < schema.C.length; i++) {
+            spice.setVar("C" + i + ".c", schema.C[i].getCapacity());
+        }
+
+
+        for (int i = 1; i < schema.R.length; i++) {
+            spice.setVar("R" + i + ".r", schema.R[i].getResistance());
+        }
 
         spice.save("project.spice.out");
     }

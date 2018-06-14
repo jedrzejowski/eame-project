@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="eame-project:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="49ba2ef6-07ff-4d5a-936c-cc15f2a48d7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eame/project/ElectricSchema.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eame/project/Main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eame/project/Main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eame/project/ui/Capacitor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eame/project/ui/Resistance.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eame/project/ui/prop/ElectricElement.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/eame_project_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eame/project/Spice.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pic/capacitor-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pic/capacitor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pic/schemat.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pic/schemat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/project.spice" beforeDir="false" afterPath="$PROJECT_DIR$/assets/project.spice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eame/project/ElectricSchema.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/ElectricSchema.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pic/schemat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/ElectricSchema.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eame/project/ElectricSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/ElectricSchema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eame/project/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eame/project/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eame/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eame/project/ElectricSchema.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/ElectricSchema.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eame/project/SpiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/SpiceGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eame/project/ui/Capacitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/ui/Capacitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eame/project/ui/Resistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/ui/Resistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eame/project/ui/prop/ElectricElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eame/project/ui/prop/ElectricElement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ElectricSchema.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eame/project/ElectricSchema.scss">
+      <file leaf-file-name="ElectricSchema.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eame/project/ElectricSchema.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="-8">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +43,8 @@
       <file leaf-file-name="SpiceGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eame/project/SpiceGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state relative-caret-position="622">
+              <caret line="64" column="68" lean-forward="true" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,34 +62,27 @@
           <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file leaf-file-name="ElectricSchema.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eame/project/ElectricSchema.java">
+      <file leaf-file-name="Capacitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eame/project/ui/Capacitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="289">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.spice" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/project.spice">
+      <file leaf-file-name="Resistance.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eame/project/ui/Resistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElectricElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eame/project/ui/prop/ElectricElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +102,7 @@
     <findStrings>
       <find>250</find>
       <find>10n</find>
+      <find>awt</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -131,8 +122,6 @@
         <option value="$PROJECT_DIR$/src/eame/project/ui/prop/TextProp.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/eame/project/ui/prop/TextProp.fxml" />
-        <option value="$PROJECT_DIR$/src/eame/project/ui/Capacitor.java" />
-        <option value="$PROJECT_DIR$/src/eame/project/ui/Resistance.java" />
         <option value="$PROJECT_DIR$/src/eame/project/Loader.java" />
         <option value="$PROJECT_DIR$/src/eame/project/ui/Resistance.scss" />
         <option value="$PROJECT_DIR$/src/eame/project/ui/Capacitor.scss" />
@@ -143,10 +132,12 @@
         <option value="$PROJECT_DIR$/src/eame/project/Main.java" />
         <option value="$PROJECT_DIR$/src/eame/project/ui/prop/ElectricElement.java" />
         <option value="$PROJECT_DIR$/src/eame/project/ElectricSchema.fxml" />
-        <option value="$PROJECT_DIR$/src/eame/project/SpiceGenerator.java" />
-        <option value="$PROJECT_DIR$/src/eame/project/ElectricSchema.java" />
-        <option value="$PROJECT_DIR$/src/eame/project/ElectricSchema.scss" />
         <option value="$PROJECT_DIR$/assets/project.spice" />
+        <option value="$PROJECT_DIR$/src/eame/project/ElectricSchema.scss" />
+        <option value="$PROJECT_DIR$/src/eame/project/SpiceGenerator.java" />
+        <option value="$PROJECT_DIR$/src/eame/project/ui/Resistance.java" />
+        <option value="$PROJECT_DIR$/src/eame/project/ElectricSchema.java" />
+        <option value="$PROJECT_DIR$/src/eame/project/ui/Capacitor.java" />
       </list>
     </option>
   </component>
@@ -160,15 +151,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-28" />
+    <option name="x" value="1920" />
+    <option name="y" value="-1" />
     <option name="width" value="1920" />
-    <option name="height" value="1108" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,20 +199,11 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="eame-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eame-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="prop" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,21 +211,22 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/eame/project/ui/prop" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/eame/project" />
+      <recent name="$PROJECT_DIR$/asstes/pic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="eame.project.ui" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/eame/project" />
-      <recent name="$PROJECT_DIR$/asstes/pic" />
+      <recent name="$PROJECT_DIR$/src/eame/project/ui/prop" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,6 +240,49 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -273,7 +301,8 @@
       <workItem from="1527775631319" duration="3943000" />
       <workItem from="1528573700384" duration="3842000" />
       <workItem from="1528745306129" duration="2243000" />
-      <workItem from="1528917940967" duration="2709000" />
+      <workItem from="1528917940967" duration="2734000" />
+      <workItem from="1528991496133" duration="5276000" />
     </task>
     <task id="LOCAL-00001" summary="Zmiana na FX">
       <created>1527784976065</created>
@@ -289,19 +318,26 @@
       <option name="project" value="LOCAL" />
       <updated>1528577516412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="KURWA PRYNCYPAŁKI V2">
+      <created>1528922835753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528922835753</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20922000" />
+    <option name="totallyTimeSpent" value="26223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-28" width="1920" height="1108" extended-state="6" />
+    <frame x="1920" y="-1" width="1920" height="1022" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32886598" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280543" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -309,13 +345,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32680413" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32579187" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298969" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2721925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27540106" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -338,19 +374,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Zmiana na FX" />
     <MESSAGE value="KURWA PRYNCYPAŁKI" />
-    <option name="LAST_COMMIT_MESSAGE" value="KURWA PRYNCYPAŁKI" />
+    <MESSAGE value="KURWA PRYNCYPAŁKI V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="KURWA PRYNCYPAŁKI V2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/eame/project/ElectricSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eame/project/ui/prop/ElectricElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -422,6 +449,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
           <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -470,11 +500,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="125" column="52" lean-forward="true" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.spice.out">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eame/project/Loader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,24 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eame/project/ui/Resistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eame/project/ui/Capacitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,10 +568,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/project.spice">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eame/project/ElectricSchema.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/eame/project/ui/prop/ElectricElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eame/project/Spice.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eame/project/ElectricSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eame/project/ui/Capacitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eame/project/SpiceGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="64" column="68" lean-forward="true" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -574,37 +638,19 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eame/project/SpiceGenerator.java">
+    <entry file="file://$PROJECT_DIR$/project.spice.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        <state relative-caret-position="-401" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eame/project/ui/Resistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eame/project/ElectricSchema.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eame/project/ElectricSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/project.spice">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -614,10 +660,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>eame-project:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
